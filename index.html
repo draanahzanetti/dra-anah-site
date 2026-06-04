@@ -11,81 +11,146 @@
 
 <style>
 
-body{
-font-family: Arial, sans-serif;
+*{
 margin:0;
 padding:0;
-line-height:1.7;
-color:#333;
-background:#ffffff;
+box-sizing:border-box;
+}
+
+body{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background:#faf8f5;
+color:#3d3d3d;
+line-height:1.8;
 }
 
 header{
-background:#f7f9fc;
-padding:60px 20px;
+background:linear-gradient(135deg,#f6f3ee,#ffffff);
+padding:70px 20px;
 text-align:center;
+border-bottom:1px solid #e8e2d9;
 }
 
 header img{
-width:220px;
-border-radius:15px;
-box-shadow:0 4px 12px rgba(0,0,0,0.15);
+width:240px;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,0.12);
+margin-bottom:20px;
 }
 
 h1{
-font-size:42px;
-margin-top:20px;
-color:#23476a;
+font-size:48px;
+color:#4f5d4d;
+margin-bottom:10px;
+font-weight:700;
 }
 
 h2{
-color:#23476a;
-margin-top:50px;
+font-size:32px;
+color:#6d7a5c;
+margin-bottom:25px;
+margin-top:60px;
+}
+
+h3{
+color:#7d6e5d;
+margin-bottom:10px;
+}
+
+p{
+font-size:18px;
+margin-bottom:18px;
 }
 
 .container{
 max-width:1100px;
 margin:auto;
-padding:30px;
+padding:50px 30px;
 }
 
 .botao{
 display:inline-block;
-background:#25D366;
+background:#8a9a7b;
 color:white;
-padding:15px 25px;
+padding:16px 32px;
+border-radius:40px;
 text-decoration:none;
-border-radius:8px;
-margin-top:20px;
-font-weight:bold;
+font-weight:600;
+font-size:18px;
+margin-top:25px;
+transition:0.3s;
+}
+
+.botao:hover{
+background:#738265;
 }
 
 .area{
-background:#f8f8f8;
-padding:20px;
-margin:15px 0;
-border-radius:10px;
+background:white;
+padding:28px;
+border-radius:18px;
+margin-bottom:20px;
+box-shadow:0 4px 15px rgba(0,0,0,0.05);
+border-left:5px solid #b8c4a7;
+}
+
+ul{
+padding-left:25px;
+margin-bottom:25px;
+}
+
+li{
+margin-bottom:10px;
 }
 
 footer{
-background:#23476a;
+background:#6d7a5c;
 color:white;
 text-align:center;
-padding:30px;
-margin-top:50px;
+padding:40px 20px;
+margin-top:70px;
 }
 
 .whatsapp{
 position:fixed;
-bottom:20px;
-right:20px;
+bottom:25px;
+right:25px;
 background:#25D366;
 color:white;
-padding:15px 20px;
+padding:16px 22px;
 border-radius:50px;
-font-weight:bold;
+font-weight:600;
 text-decoration:none;
-box-shadow:0 4px 10px rgba(0,0,0,0.2);
+box-shadow:0 8px 20px rgba(0,0,0,0.20);
+z-index:999;
+}
+
+.whatsapp:hover{
+transform:scale(1.05);
+}
+
+strong{
+color:#4f5d4d;
+}
+
+@media(max-width:768px){
+
+h1{
+font-size:34px;
+}
+
+h2{
+font-size:26px;
+}
+
+header img{
+width:180px;
+}
+
+.container{
+padding:25px;
+}
+
 }
 
 </style>
